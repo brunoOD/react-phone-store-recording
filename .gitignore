@@ -4,6 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
+.env.development
+#Acá se colocan los archivos que no deben ser vistos
 
 # testing
 /coverage

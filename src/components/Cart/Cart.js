@@ -20,7 +20,7 @@ export default class Cart extends Component{
 						<Title name="tu" title="carrito"/>  
 						<CartColumns />			{/*Tenemos 4 componentes: Title => Titulo de la página; CartColumns => Componentes que incluyen los titulos; CartList => Contiene el listado de productos; CartTotals => Tiene todos los totale de los productos*/}
 						<CartList value={value}/>
-						<CartTotals value={value}/>
+						<CartTotals value={value} history={this.props.history}/>  {/*Accedemos a los props que siempre están y que nos dan el historial de la página*/}
 					</React.Fragment>
 				)}else{
 				return(

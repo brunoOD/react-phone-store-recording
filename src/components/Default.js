@@ -10,7 +10,7 @@ export default class Default extends Component{
 						<h1 className="display-3">404</h1>
 						<h1>error</h1>
 						<h2>página no encontrada</h2>
-						<h3>la URL solicitada: <span className="text-danger">{this.props.location.pathname} </span>
+						<h3>la URL solicitada: <span className="text-danger">{this.props.location.pathname} ethh</span>
 						 no fue encontrada</h3>
 					</div>
 
